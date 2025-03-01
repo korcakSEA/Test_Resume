@@ -134,6 +134,7 @@ a:link,a:visited{
 
 a:hover, a:active, span:hover{
     color: #D98324 ;
+    font-weight: bold;
 }
 
 
