@@ -45,10 +45,7 @@ span{
     color: var(--tertiary);
 }
 
-a{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
+
 
 footer{
     text-align: center;
@@ -66,7 +63,7 @@ footer{
 .wrapper{
     max-width: 1200px;
     width: 90%;
-    margin: 0 auto 2rem;
+    margin: 0 auto;
 }
 
 .intro{
@@ -117,6 +114,15 @@ footer{
     justify-content: space-evenly;
 }
 
+
+/* Education Section */
+
+#education{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
 .education{
     display: flex;
     justify-content: space-between;
@@ -124,8 +130,16 @@ footer{
     margin-bottom: 2rem;
 }
 
+/* Experience Section */
+
 .job-experience, .intro{
     margin-bottom: 2.5rem;
+}
+
+/* Links */
+a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
 
 a:link,a:visited{
