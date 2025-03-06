@@ -45,8 +45,6 @@ span{
     color: var(--tertiary);
 }
 
-
-
 footer{
     text-align: center;
 }
@@ -74,7 +72,7 @@ footer{
 .companies{
     padding: 1rem 1rem;
     width: 45rem;
-    font-size: var(--text-md);
+    font-size: var(--text-lg);
 }
 
 .banner{
@@ -89,12 +87,7 @@ footer{
     align-items: center;
 }
 
-.title{
-    display: flex;
-    gap: 0.8rem;
-    align-items: center;
 
-}
 
 .logo{
     width: 5rem;
@@ -107,33 +100,63 @@ footer{
 
 .intro-paragraph{
     line-height: 2;
+    font-size: var(--text-md);
 }
-.experience{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+
 
 
 /* Education Section */
 
-#education{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2rem;
-}
-
 .education{
     display: flex;
-    justify-content: space-between;
-
+    width: 100%;
+    justify-content: space-around;
     margin-bottom: 2rem;
 }
+
+.title{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+
 
 /* Experience Section */
 
-.job-experience, .intro{
+.job-experience{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 2.5rem;
+    padding: 1rem;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* justify-content: space-evenly; */
+}
+
+.job-title{
+    font-weight: 600;
+    font-size: var(--text-md);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: var(--tertiary);
+    color: var(--primary);
+}
+
+.job-responsibilities{
+    margin-left: 1rem;
+    font-size: var(--text-sm);
+}
+
+.language ul li span{
+    color: #000000;
+    font-weight: bold;
 }
 
 /* Links */
